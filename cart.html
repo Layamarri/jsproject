@@ -1,0 +1,39 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div id="h1">
+            <a href="./index.html"><h1>Ecommerce</h1></a>
+        </div>
+        <div id="links">
+            <a href="./index.html">Home</a>
+            <a href="./product.html">Products</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+        </div>
+        <div id="buttons">
+            <a href="./login.html"><button id="btn"><i class="fa-solid fa-right-to-bracket"></i> Login</button></a>
+            <a href="./register.html"><button id="btn"><i class="fa-solid fa-user-plus"></i> Register</button></a>
+            <a href="./cart.html"><button id="btn"><i class="fa-solid fa-cart-shopping"></i> Cart <span>(0)</span></button></a>
+        </div>
+    </div>
+    <h2 style="text-align: center;">Cart</h2>
+    <hr>
+    <div id="cartItemsContainer">
+        <div id="carteditems"></div>
+        <div id="ordereddescription"></div>
+    </div>
+    <div id="quote">
+        <p>Made with ❤️ </p>
+    </div>
+    <script src="./cart.js"></script>
+</body>
+</html>
